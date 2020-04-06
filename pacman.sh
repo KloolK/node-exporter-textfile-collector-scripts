@@ -24,8 +24,8 @@ else
     cache=1
 fi
 
-echo "# HELP updates_pending number of pending updates from pacman"
-echo "# TYPE updates_pending gauge"
+echo "# HELP pacman_updates_pending number of pending updates from pacman"
+echo "# TYPE pacman_updates_pending gauge"
 echo "pacman_updates_pending $updates"
 
 echo "# HELP pacman_updates_pending_from_cache pending updates information are from cache"
